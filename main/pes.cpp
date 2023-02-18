@@ -1,11 +1,6 @@
-pipeline {
-    agent any
+#include <iostream>
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Welcome to PES'
-            }
-        }
-    }
+int main() {
+    std::cout << "Hello World!";
+    return 0;
 }
